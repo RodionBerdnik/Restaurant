@@ -1,0 +1,228 @@
+/*====================RESET START=======================*/
+  
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  blockquote,
+  q {
+    quotes: none;
+  }
+  
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /*====================RESET END=======================*/
+
+  :root{
+    --orange: #ff7400;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container{
+    margin: 0 166px;
+  }
+
+  .header{
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav-item{
+    color: #fff;
+    text-shadow: 10px -7px 15px #9d822b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: 14px;
+    margin-right: 25px;
+    transition: color .3s linear;
+  }
+
+  .nav-item:hover{
+    color: #F6D637;
+  }
+
+  .cart{
+    position: relative;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    height: 50px;
+  }
+
+  .cart-img{
+    position: absolute;
+    top: 18px;
+    right: 7px;
+  }
+
+  .num{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 15px;
+  }
+  .num:hover{
+    color: #F6D637;
+    transition: color .3s linear;
+  }
+
+  .phone-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+  }
+
+  .phone-holder{
+    display: flex;
+    align-items: center;
+  }
+
+  .button{
+    background-color: var(--orange);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 14px 18px;
+    border-radius: 30px;
+    text-shadow: 0 0 15px #9d822b;
+  }
+
+  .button:hover{
+    background-color: #112A72;
+        transition: color .2s linear;
+  }
