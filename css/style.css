@@ -134,6 +134,7 @@ table {
 
 /*====================RESET END=======================*/
 
+/*====================COMMON START=======================*/
 :root {
   --orange: #ff7400;
 }
@@ -145,7 +146,9 @@ body {
 .container {
   margin: 0 166px;
 }
+/*====================COMMON END=======================*/
 
+/*====================HEADER START=======================*/
 .header {
   background-image: url(../img/bg.jpg);
   height: 100vh;
@@ -288,3 +291,124 @@ body {
   background-color: #43b84d;
   text-shadow: 0 0 15px #9d822b;
 }
+/*====================HEADER END=======================*/
+
+/*====================CARDS START=======================*/
+.cards-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  margin-right: 31px;
+  width: 335px;
+  background-color: #fff;
+  margin-top: -80px;
+  padding: 10px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.card-title span {
+  color: #d67e35;
+  margin-left: 5px;
+}
+
+.card-desk {
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #414040;
+}
+/*====================CARDS END=======================*/
+
+/*====================CARDS START=======================*/
+.history {
+  margin-top: 166px;
+}
+
+.history-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  width: 444px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.history-title span {
+  color: #d67e35;
+  margin-left: 5px;
+}
+
+.history-desk {
+  color: #414040;
+  font-size: 16px;
+  width: 444px;
+  text-align: start;
+}
+.history-number {
+  display: flex;
+  gap: 60px;
+  width: 444px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.history-number span {
+  display: block;
+  color: #000;
+}
+
+.number-item {
+  font-size: 35px;
+  color: rgb(211 129 40);
+}
+
+.history-images {
+  position: relative;
+}
+
+.history-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images-1 {
+  position: absolute;
+  z-index: 0;
+  top: 30px;
+  left: -500px;
+}
+
+.images-2 {
+  position: absolute;
+  z-index: 1;
+  top: -110px;
+  left: -330px;
+}
+
+.images-3 {
+  position: absolute;
+  z-index: 2;
+  top: 210px;
+  left: -255px;
+}
+
+/*====================CARDS END=======================*/
