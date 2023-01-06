@@ -137,6 +137,7 @@ table {
 /*====================COMMON START=======================*/
 :root {
   --orange: #ff7400;
+  --index: calc(1vw + 1vh);
 }
 
 body {
@@ -217,7 +218,9 @@ body {
   background-color: var(--orange);
   color: #fff;
   text-transform: uppercase;
+  font-size: 14px;
   font-weight: 700;
+  font-family: "Open Sans", sans-serif;
   padding: 14px 18px;
   border-radius: 30px;
   transition: background-color 0.3s linear;
@@ -340,6 +343,7 @@ body {
 /*====================CARDS START=======================*/
 .history {
   margin-top: 166px;
+  padding-bottom: 200px;
 }
 
 .history-title {
@@ -412,3 +416,61 @@ body {
 }
 
 /*====================CARDS END=======================*/
+
+/*====================BLACK-BLOCK START=======================*/
+.black-block{
+  background-image: url(../img/black-bg.jpg);
+  padding: 60px 0;
+}
+
+.left-title{
+  color: var(--orange);
+  font-family: "Tinos", serif;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.left-text{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.right-btn {
+  background-color: var(--orange);
+  padding: 14px 28px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 30px;
+  transition: background-color 0.3s linear;
+}
+
+.right-button {
+  color: #fff;
+  text-decoration: none;
+}
+
+.right-btn:hover {
+  background-color: #5BB4EA;
+  text-shadow: 0 0 15px #9d822b;
+}
+
+.block-holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*====================BLACK-BLOCK END=======================*/
+
+
+
+.copy{
+  position: absolute;
+  bottom: calc(var(--index)*2.5);
+  /* opacity: .45; */
+  font-size: calc(var(--index)*.75);
+  letter-spacing: calc(var(--index)/37.5);
+}
