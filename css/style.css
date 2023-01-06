@@ -465,7 +465,57 @@ body {
 }
 /*====================BLACK-BLOCK END=======================*/
 
+/*====================MENU START=======================*/
+.menu-title{
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 140px;
+}
 
+.menu-title span{
+  color: #d67e35;
+}
+
+.dishes{
+  display: flex;
+  justify-content: center;
+}
+
+.dishes-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.pizza-image{
+  width: 495px;
+  height: 480px;
+  margin-right: 20px;
+}
+
+.dishes-text{
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  margin-left: 20px;
+}
+.adzhar{
+  width: 160px;
+  height: 140px;
+}
+
+.megrel{
+  width: 160px;
+  height: 140px;
+}
+
+.hinkali{
+  width: 160px;
+  height: 140px;
+}
+/*====================MENU END=======================*/
 
 .copy{
   position: absolute;
