@@ -147,6 +147,17 @@ body {
 .container {
   margin: 0 166px;
 }
+
+.copy {
+  background-image: url(../img/black-bg.jpg);
+  color: #fff;
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0;
+  text-align: center;
+}
 /*====================COMMON END=======================*/
 
 /*====================HEADER START=======================*/
@@ -418,12 +429,12 @@ body {
 /*====================CARDS END=======================*/
 
 /*====================BLACK-BLOCK START=======================*/
-.black-block{
+.black-block {
   background-image: url(../img/black-bg.jpg);
   padding: 60px 0;
 }
 
-.left-title{
+.left-title {
   color: var(--orange);
   font-family: "Tinos", serif;
   font-size: 52px;
@@ -431,7 +442,7 @@ body {
   margin-bottom: 20px;
 }
 
-.left-text{
+.left-text {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
@@ -454,19 +465,19 @@ body {
 }
 
 .right-btn:hover {
-  background-color: #5BB4EA;
+  background-color: #5bb4ea;
   text-shadow: 0 0 15px #9d822b;
 }
 
-.block-holder{
+.block-holder {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 /*====================BLACK-BLOCK END=======================*/
 
-/*====================MENU START=======================*/
-.menu-title{
+/*====================DISHES START=======================*/
+.dis-title {
   font-family: "Tinos", serif;
   font-size: 54px;
   font-weight: 400;
@@ -475,51 +486,132 @@ body {
   margin-bottom: 140px;
 }
 
-.menu-title span{
+.dis-title span {
   color: #d67e35;
 }
 
-.dishes{
+.dishes {
   display: flex;
   justify-content: center;
 }
 
-.dishes-item{
+.dishes-item {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.pizza-image{
+.pizza-image {
   width: 495px;
   height: 480px;
   margin-right: 20px;
 }
 
-.dishes-text{
+.dishes-text {
   font-family: "Tinos", serif;
   font-size: 26px;
   margin-left: 20px;
 }
-.adzhar{
+.adzhar {
   width: 160px;
   height: 140px;
 }
 
-.megrel{
+.megrel {
   width: 160px;
   height: 140px;
 }
 
-.hinkali{
+.hinkali {
   width: 160px;
   height: 140px;
+}
+/*====================DISHES END=======================*/
+
+/*====================MENU START=======================*/
+.menu {
+  background-image: url(../img/menu-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.menu-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  padding-top: 98px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 138px;
+}
+
+.menu-item {
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+.menu-text {
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.menu-subtext {
+  font-size: 16px;
+}
+
+.menu-btn {
+  background-color: var(--orange);
+  padding: 14px 67px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 30px;
+  transition: background-color 0.3s linear;
+  margin-top: 20px;
+  border: none;
+  box-shadow: 5px 5px 10px 0 #00000040;
+}
+
+.menu-button {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-btn:hover {
+  background-color: #4c36c5;
+  text-shadow: 0 0 15px #9d822b;
+}
+
+.prise-image {
+  position: absolute;
+  bottom: 0;
+  right: 105px;
+}
+
+.menu-image {
+  position: relative;
+}
+
+.price-180 {
+  position: absolute;
+  bottom: 32px;
+  right: 130px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
 }
 /*====================MENU END=======================*/
 
-.copy{
-  text-align: center;
-  font-family: "Tinos", serif;
-  font-size: 20px;
-  font-weight: bold;
-}
+
+
