@@ -649,5 +649,34 @@ body {
 }
 /*====================COMENTS END=======================*/
 
+/*====================GALERY START=======================*/
+
+.galery-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.galery-title span {
+  color: #d67e35;
+  margin-left: 5px;
+}
+
+.galery-contant {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galery-down,
+.galery-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+/*====================GALERY END=======================*/
+
 
 
