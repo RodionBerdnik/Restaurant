@@ -678,5 +678,30 @@ body {
 }
 /*====================GALERY END=======================*/
 
+/*====================COOK START=======================*/
+.cook{
+  padding-bottom: 100px;
+}
 
+.cook-title{
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.cook-title span {
+  color: #d67e35;
+  margin-left: 5px;
+}
+
+.cook-contant{
+  display: flex;
+  justify-content: space-around;
+}
+/*====================COOK END=======================*/
+
+/*====================ADAPTATION START=======================*/
+
+/*====================ADAPTATION END=======================*/
 
