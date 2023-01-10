@@ -323,7 +323,7 @@ body {
 .burger-slide{
   position: absolute;
   text-align: center;
-  right: -5px;
+  right: 5px;
 }
 
 button{
