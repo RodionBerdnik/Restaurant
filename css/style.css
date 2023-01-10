@@ -367,7 +367,6 @@ body {
   font-family: "Tinos", serif;
   font-size: 54px;
   font-weight: 400;
-  width: 444px;
   text-align: center;
   margin-bottom: 21px;
 }
@@ -380,7 +379,6 @@ body {
 .history-desk {
   color: rgb(65, 64, 64);
   font-size: 18px;
-  width: 444px;
   text-align: start;
   font-style: italic;
   font-weight: 400;
@@ -388,7 +386,6 @@ body {
 .history-number {
   display: flex;
   gap: 60px;
-  width: 444px;
   justify-content: center;
   text-align: center;
   margin-top: 40px;
@@ -520,6 +517,14 @@ body {
   font-family: "Tinos", serif;
   font-size: 26px;
   margin-left: 20px;
+}
+
+.dishes-text-mobile{
+  display: none;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .adzhar {
@@ -993,6 +998,7 @@ body {
   }
 
   .dishes-text-mobile {
+    display: block;
     font-size: 17px;
     font-weight: 700;
     margin-top: 10px;
