@@ -308,7 +308,7 @@ body {
   text-shadow: 0 0 15px #9d822b;
 }
 
-.burger-menu{
+.burger-menu {
   display: none;
 }
 /*====================HEADER END=======================*/
@@ -357,7 +357,7 @@ body {
 }
 /*====================CARDS END=======================*/
 
-/*====================CARDS START=======================*/
+/*====================HISTORY START=======================*/
 .history {
   margin-top: 166px;
   padding-bottom: 200px;
@@ -378,10 +378,12 @@ body {
 }
 
 .history-desk {
-  color: #414040;
-  font-size: 16px;
+  color: rgb(65, 64, 64);
+  font-size: 18px;
   width: 444px;
   text-align: start;
+  font-style: italic;
+  font-weight: 400;
 }
 .history-number {
   display: flex;
@@ -432,7 +434,7 @@ body {
   left: -255px;
 }
 
-/*====================CARDS END=======================*/
+/*====================hISTORY END=======================*/
 
 /*====================BLACK-BLOCK START=======================*/
 .black-block {
@@ -500,12 +502,12 @@ body {
 .dishes {
   display: flex;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 .dishes-item {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
 }
 
 .pizza-image {
@@ -519,6 +521,7 @@ body {
   font-size: 26px;
   margin-left: 20px;
 }
+
 .adzhar {
   width: 160px;
   height: 140px;
@@ -569,9 +572,9 @@ body {
 }
 
 .menu-subtext {
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 600;
 }
-
 .menu-btn {
   background-color: var(--orange);
   padding: 14px 67px;
@@ -604,6 +607,11 @@ body {
 
 .menu-image {
   position: relative;
+}
+
+.menu-img {
+  width: 300px;
+  height: 300px;
 }
 
 .price-180 {
@@ -686,11 +694,11 @@ body {
 /*====================GALERY END=======================*/
 
 /*====================COOK START=======================*/
-.cook{
+.cook {
   padding-bottom: 100px;
 }
 
-.cook-title{
+.cook-title {
   font-family: "Tinos", serif;
   font-size: 54px;
   text-align: center;
@@ -702,276 +710,473 @@ body {
   margin-left: 5px;
 }
 
-.cook-contant{
+.cook-contant {
   display: flex;
   justify-content: space-around;
 }
 /*====================COOK END=======================*/
 
 /*====================ADAPTATION START=======================*/
-@media (max-width: 1500px){
-  .galery-contant{
+@media (max-width: 1500px) {
+  .galery-contant {
     display: block;
   }
 
-  .img-gal, .galery-down, .galery-up{
+  .galery-right {
+    display: none;
+  }
+
+  .img-gal,
+  .galery-down,
+  .galery-up {
     display: block;
     margin: 0 auto;
   }
 
-  .img-gal{
+  .img-gal {
     margin-bottom: 20px;
   }
 
-  .menu-img{
-    width: 250px;
-    height: 250px;
-  }
-  .dishes-text{
+  .dishes-text {
     font-size: 19px;
     font-weight: 700;
+    margin-bottom: 50px;
   }
 }
 
-@media (max-width: 1300px){
-  .menu-items{
+@media (max-width: 1300px) {
+  .header-btn {
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 18px 32px;
+  }
+
+  .menu-items {
     display: block;
   }
 
-  .menu-item{
+  .menu-item {
     margin: 20px auto;
     width: 400px;
   }
 
-  .dishes-item{
-    min-width: 540px;
+  .menu-text {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .menu-subtext {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .menu-btn {
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 18px 50px;
+  }
+
+  .dishes,
+  .dishes-item {
+    display: block;
+    text-align: center;
+  }
+
+  .dis-title {
+    margin-bottom: 90px;
   }
 
   .dishes-text {
-    font-size: 18px;
-    font-weight: 400; 
-}
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    margin-left: 0;
+  }
 
-.header-title {
-  position: static;
-}
+  .adzhar {
+    height: 300px;
+    width: 300px;
+  }
 
-.header-suptitle::after, 
-.header-suptitle::before{
-  content: none;
-}
+  .megrel {
+    height: 300px;
+    width: 300px;
+  }
 
-.phone-text {
-  width: 140px;
-}
+  .hinkali {
+    height: 300px;
+    width: 300px;
+  }
 
-.cook-contant{
-  display: block;
-}
+  .pizza-image {
+    display: none;
+  }
 
-.cook-contant img{
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
+  .header-title {
+    position: static;
+  }
 
-.block-holder{
-  display: block;
-}
+  .header-suptitle::after,
+  .header-suptitle::before {
+    content: none;
+  }
 
-.left-title, .left-text, .right{
-  text-align: center;
-}
-.right-btn{
-  margin-top: 30px;
-}
+  .phone-text {
+    width: 140px;
+  }
 
-.history-images{
-  display: none;
-}
-
-.history-holder{
-  display: flex;
-  justify-content: center;
-}
-
-.history-desk {
-  font-size: 20px;
-}
-}
-
-@media (max-width: 1185px){
-  .burger-menu{
+  .cook-contant {
     display: block;
   }
 
-  .nav, .cart, .phone, .btn {
+  .cook-contant img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 500px;
+    width: 350px;
+  }
+
+  .block-holder {
+    display: block;
+  }
+
+  .left-title,
+  .left-text,
+  .right {
+    text-align: center;
+  }
+  .right-btn {
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 18px 32px;
+  }
+
+  .history-images {
     display: none;
   }
 
-  .navbar{
+  .history-holder {
+    display: flex;
+    justify-content: center;
+  }
+
+  .history-desk {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 1185px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .cards-holder {
+    justify-content: center;
+  }
+
+  .nav,
+  .cart,
+  .phone,
+  .btn {
+    display: none;
+  }
+
+  .navbar {
     justify-content: space-between;
-  }
-
-  .pizza-image{
-    display: none;
   }
 
   .card {
     min-width: 270px;
-}
+  }
+
+  .cook-contant img {
+    height: 400px;
+    width: 300px;
+  }
+
+  .header-btn {
+    font-size: 16px;
+  }
+
+  .right-btn {
+    font-size: 15px;
+  }
+
+  .menu-btn {
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 1000px){
-.cards-holder{
-  display: block;
+@media (max-width: 1000px) {
+  .cards-holder {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .header-btn {
+    font-size: 15px;
+  }
+
+  .right-btn {
+    font-size: 14px;
+  }
+
+  .menu-btn {
+    font-size: 15px;
+  }
+
+  .history-title {
+    font-size: 48px;
+  }
+
+  .left-title {
+    font-size: 48px;
+  }
+
+  .left-text {
+    font-size: 23px;
+  }
+
+  .dis-title {
+    font-size: 48px;
+  }
+
+  .dis-title {
+    margin-bottom: 60px;
+  }
+  .menu-title {
+    font-size: 48px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+
+  .galery-title {
+    font-size: 48px;
+  }
+
+  .cook-title {
+    font-size: 48px;
+    margin: 80px 0;
+  }
+}
+
+@media (max-width: 780px) {
+
+  .container {
+    margin: auto 40px;
+  }
+  .history-holder {
+    display: block;
+  }
+
+  .header-title {
+    font-size: 46px;
+  }
+
+  .header-btn {
+    padding: 15px 25px;
+  }
+
+  .right-btn {
+    padding: 15px 25px;
+  }
+
+  .dishes-text {
+    display: none;
+  }
+
+  .dishes-text-mobile {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .adzhar {
+    width: 250px;
+    height: 250px;
+  }
+
+  .megrel {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hinkali {
+    width: 250px;
+    height: 250px;
+  }
+
+  .menu-btn {
+    padding: 15px 25px;
+  }
+
+  .hight{
+    display: none;
+  }
+
+  .history-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-title {
+    font-size: 44px;
+}
+
+.left-text {
+  font-size: 21px;
 }
 
 .card{
-  width: 100%;
-  margin-top: 30px;
-  padding-bottom: 20px;
+  padding: 0;
 }
 
-.dishes-text {
-  font-size: 20px;
-  font-weight: 700;
+.menu-btn {
+  padding: 16px 40px;
 }
 }
 
 @media (max-width: 575.98px) {
-  .container {
-    max-width: 100%;
-    margin: 0 40px;
-  }
+
+  .card-desk {
+    padding: 0 10px;
+}
 
   .header-title {
     font-size: 38px;
-}
+  }
 
-.header-suptitle {
-  margin: 20px 0;
-}
+  .header-suptitle {
+    margin: 20px 0;
+  }
 
-.history-title {
-  font-size: 48px;
-}
+  .history-title {
+    font-size: 48px;
+  }
 
-.history-desk {
-  font-size: 16px;
-  max-width: 370px;
-  text-align: start;
-  margin-left: 50px;
-}
+  .history-desk {
+    font-size: 17px;
+    max-width: 338px;
+    text-align: start;
+  }
 
-.number-item {
-  font-size: 30px;
-}
+  .container .history-desk{
+    margin: 0 auto;
+  }
 
-.left-title, .left-text, .right {
-  text-align: center;
-}
-.left-title {
-  font-size: 30px;
-}
+  .number-item {
+    font-size: 30px;
+  }
 
-.left-text {
-font-size: 24px;
-font-weight: 400;
-}
+  .left-title,
+  .left-text,
+  .right {
+    text-align: center;
+  }
+  .left-title {
+    font-size: 30px;
+  }
 
-.header-btn {
-  padding: 12px 20px;
-  font-size: 12px;
-}
+  .left-text {
+    font-size: 24px;
+    font-weight: 400;
+  }
 
-.right-btn {
-  padding: 12px 20px;
-  font-size: 12px;
-}
+  .header-btn {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
 
-.history {
-  margin-top: 40px;
-  padding-bottom: 40px;
-}
+  .right-btn {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
 
-.dis-title {
-  font-size: 48px;
-  padding-top: 40px;
+  .history {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .dis-title {
+    font-size: 48px;
+    padding-top: 40px;
     margin-bottom: 40px;
-}
+  }
 
-.dishes-item {
-  display: block;
-  text-align: center;
-  max-width: 400px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  .dishes-item {
+    display: block;
+    text-align: center;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
 
-.dishes-text {
-  font-size: 17px;
-  font-weight: 700;
-  margin-top: 10px;
-}
+  .dishes-text {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
 
-.menu-title {
-  font-size: 48px;
-  padding-top: 45px;
-  padding-bottom: 45px;
-}
+  .menu-title {
+    font-size: 48px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
 
-.menu-item {
-  padding-top: 40px;
-  width: 330px;
-}
+  .menu-item {
+    padding-top: 40px;
+    width: 330px;
+  }
 
-.menu-img {
-  width: 210px;
-  height: 210px;
-}
+  .menu-img {
+    width: 210px;
+    height: 210px;
+  }
 
-.menu-btn {
-  padding: 14px 30px;
-  font-size: 13px;
-}
+  .menu-btn {
+    padding: 14px 30px;
+    font-size: 13px;
+  }
 
-.coment-text {
-  font-size: 16px;
-}
+  .coment-text {
+    font-size: 16px;
+  }
 
-.coment-type {
-  font-size: 16px;
-}
+  .coment-type {
+    font-size: 16px;
+  }
 
-.coment-name {
-  font-size: 16px;
-}
+  .coment-name {
+    font-size: 16px;
+  }
 
-.coment {
+  .coment {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
+  .galery-title {
+    font-size: 48px;
+    padding-top: 70px;
+  }
 
-.galery-title {
-  font-size: 48px;
-  padding-top: 70px;
-}
+  .galery-right {
+    display: none;
+  }
 
-.galery-right{
-  display: none;
-}
-.galery-up {
-  width: 270px;
-  height: 160px;
-}
-
-.galery-down{
-  width: 220px;
-  height: 130px;
+  .dishes-text-mobile {
+    font-size: 18px;
 }
 }
 
 /*====================ADAPTATION END=======================*/
-
