@@ -264,6 +264,7 @@ body {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .header-suptitle::after {
@@ -272,7 +273,7 @@ body {
   height: 2px;
   width: 61px;
   background-color: #fff;
-  top: 128px;
+  top: 134px;
   left: 30px;
 }
 
@@ -282,7 +283,7 @@ body {
   height: 2px;
   width: 61px;
   background-color: #fff;
-  top: 128px;
+  top: 134px;
   left: 340px;
 }
 
@@ -308,10 +309,33 @@ body {
   text-shadow: 0 0 15px #9d822b;
 }
 
+/*====================HEADER END=======================*/
+
+/*====================BURGER-MENU START=======================*/
 .burger-menu {
   display: none;
 }
-/*====================HEADER END=======================*/
+
+.block{
+  display: block;
+}
+
+.burger-slide{
+  position: absolute;
+  text-align: center;
+  right: -5px;
+}
+
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.disp{
+  display: none;
+}
+/*====================BURGER-MENU END=======================*/
 
 /*====================CARDS START=======================*/
 .cards-holder {
